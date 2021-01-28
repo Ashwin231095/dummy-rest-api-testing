@@ -1,0 +1,119 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-01-28T11:56:48.822Z",
+    "end": "2021-01-28T11:56:48.898Z",
+    "duration": 76,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "8d3659ca-66c6-4d56-9bae-1f69a5c0b031",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "012665cb-7f98-483c-a017-b12441166bcb",
+          "title": "test create apis",
+          "fullFile": "/Users/ashwinyadgirker/Documents/dummy-rest-api-testing/tests/create-api.test.ts",
+          "file": "/tests/create-api.test.ts",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "tests create api",
+              "fullTitle": "test create apis tests create api",
+              "timedOut": false,
+              "duration": 5,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "request.createApi(api.createApi, 201);",
+              "err": {},
+              "uuid": "85611730-c255-4d43-8b4c-05d3d0060ad1",
+              "parentUUID": "012665cb-7f98-483c-a017-b12441166bcb",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "tests create wrong api",
+              "fullTitle": "test create apis tests create wrong api",
+              "timedOut": false,
+              "duration": 2,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "request.createApi('/ap/users', 404);",
+              "err": {},
+              "uuid": "055df942-3882-4a5d-b399-e9d0b30a9165",
+              "parentUUID": "012665cb-7f98-483c-a017-b12441166bcb",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "85611730-c255-4d43-8b4c-05d3d0060ad1",
+            "055df942-3882-4a5d-b399-e9d0b30a9165"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 7,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 30000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 30000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.2.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.1.0"
+    }
+  }
+}

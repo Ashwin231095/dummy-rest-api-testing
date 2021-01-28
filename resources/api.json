@@ -1,0 +1,6 @@
+{
+    "getApi": "/api/users?page=2",
+    "createApi": "/api/users",
+    "updateApi": "/api/users/2",
+    "deleteApi": "/api/users/2"
+}
